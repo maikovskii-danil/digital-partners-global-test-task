@@ -10,13 +10,11 @@
         'flex items-center justify-between',
         'h-28 px-8 mb-20',
         'shadow-xl/20',
-        'bg-gray-100 dark:bg-gray-700',
+        'bg-gray-700',
       ]"
     >
-      <h1 class="cursor-default text-3xl font-bold dark:text-blue-100">
-        <button>
-          Vue.js App
-        </button>
+      <h1 class="cursor-default text-3xl font-bold text-blue-100">
+        <button>Vue.js App</button>
       </h1>
     </header>
     <div
