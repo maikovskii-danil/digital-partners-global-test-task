@@ -1,21 +1,11 @@
 <template>
-  <TheNavbar :visible="userStore.isLoggedIn" />
+  <TheNavbar visible />
   <div class="flex justify-center">
-    <router-view #="{ Component: Page }">
-      <Transition
-        appear
-        name="opacity"
-        mode="out-in"
-      >
-        <Component :is="Page" />
-      </Transition>
-    </router-view>
+    <MainPage />
   </div>
 </template>
 
 <script setup lang="ts">
+import MainPage from './views/MainPage.vue';
 import TheNavbar from './TheNavbar.vue';
-import useUserStore from './stores/user';
-
-const userStore = useUserStore();
 </script>
