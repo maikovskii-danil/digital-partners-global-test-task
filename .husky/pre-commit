@@ -1,0 +1,4 @@
+npm clean-install --fund false --audit false
+npm run prettierCheck
+npm run lintOnly
+npm audit
