@@ -1,4 +1,4 @@
-# Test task digital partners global
+# Test task digital partners global (НЕ ДОДЕЛАНО, ВРЕМЯ ЗАКОНЧИЛОСЬ)
 
 ## 🛠 About Enviroment
 
